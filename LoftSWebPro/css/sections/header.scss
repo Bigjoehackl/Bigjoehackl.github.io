@@ -1,0 +1,62 @@
+.header {
+    height: 90px;
+    width: 96%;
+    background: $green;
+    padding: 0 27px; 
+}
+
+.head__left {
+    float: left;
+    width: 50%;
+}
+
+.head__ava {
+    float: left;
+    padding-top: 15px;
+}
+
+.head__info {
+    padding: 26px 0 0 17px;
+    overflow: auto;
+    color: $white;
+}
+
+.head__name {
+    font-size: 18px;
+}
+
+.head__mail {
+    padding-top: 7px;
+    font-size: 15px;
+}
+
+.head__right {
+    float: right;
+    padding-top: 30px;
+}
+
+.soc {
+    position: relative;
+}
+
+.soc__item {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 18px;
+}
+
+.soc__link {
+    display: inline-block;
+}
+
+.soc__icon {
+    display: block;
+    fill: $white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+@mixin svgpic {
+    width: 140px;
+    height: 140px;
+    padding: 0;
+}
+
+@mixin paragraph {
+    font-size: 12px;
+    height: 168px;
+    padding: 20px 0 0 21px;
+    text-align: left;
+    line-height: 17px;
+}
+
+@mixin clearfix {
+    &:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+
+//vars
+$container-width: 943px;
+$footer-height: 72px;
+
+//colors
+$green: #8cc34b;
+$white: #ffffff;
+$black: #212121;
+
+//layout
+@import "layout/normalize";
+@import "layout/settings";
+@import "layout/font-awesome";
+@import "layout/fonts";
+
+
+//sections
+@import "sections/header";
+@import "sections/about";
+@import "sections/courses";
+@import "sections/footer";

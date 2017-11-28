@@ -1,0 +1,62 @@
+.about {
+    text-align: center;
+    padding-top: 80px;
+    height: 328px;
+}
+
+.about__stud {
+    font-size: 41px;
+}
+
+.about__for {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 100;
+}
+
+.about__site {
+    color: blue;
+}
+
+.about__me {
+    float: left;
+    width: 50%;
+    padding-top: 47px;
+}
+
+.about__me_pic {
+   @include svgpic;
+}
+
+.about__me_info  {
+    padding-left: 21px;
+    font-size: 17px;
+    float: left;
+}
+
+.about__me_text {
+    @include paragraph;
+}
+
+.about__exp {
+    padding-top: 47px;
+    width: 50%;
+    float: right;
+}
+
+.about__exp_pic {
+    @include svgpic;
+    float: left;
+}
+
+.about__exp_info  {
+    padding: 0 0 0 21px;
+    font-size: 17px;
+    float: left;
+    width: auto;
+}
+
+.about__exp_text {
+   @include paragraph;
+   float: left;
+}

@@ -1,0 +1,44 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: $container-width;
+    margin: 0 130px;
+}
+
+.wrap {
+    overflow: hidden;
+    min-height: 100%;
+    min-width: $container-width + 20px;
+    
+    &:after {
+        content: "";
+        display: block;
+        height: $footer-height;
+    }
+}
+
+.footer {
+    height: $footer-height;
+    min-width: $container-width + 20px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1, h3, h5 {
+    margin: 0;
+}
+
+p, .about__me_text, .about__exp_text {
+    margin: 0;
+    overflow: auto;
+}
