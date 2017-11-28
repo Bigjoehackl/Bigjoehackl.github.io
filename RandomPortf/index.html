@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hello!</title>
+</head>
+<body>
+    <div class="wrapper wrapper_auth">
+        <div class="auth">
+            <div class="auth__top">
+                <div class="auth__avatar" style="background-image: url('img/content/ava-big.jpg')"></div>
+                <div class="auth__name">
+                    Павел <br> Тризанов
+                </div>
+            </div>
+            <div class="auth__bottom">
+                <a href="about.html" class="about__download-link white-link">
+                    Перейти на сайт
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function () {
+            document.querySelector('.auth').classList.add('bounceIn');
+        };
+    </script>
+</body>
+</html>

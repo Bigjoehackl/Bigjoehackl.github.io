@@ -1,0 +1,310 @@
+@media screen and (max-width: 1200px) {
+    .container {
+	width: 940px;
+  }
+    
+
+}
+
+@media screen and (max-width: 992px) {
+    .container{
+    width: 750px;
+	padding: 0;
+  }
+    .sidebar {
+    float: none;
+    width: 100%;
+    margin-bottom: 47px;
+  }
+    
+    .nav__link {
+    padding: 0;
+    float: left;
+    font-weight: normal;
+	border: 0 none;    
+  } 
+    .nav__item {
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 30px;
+	}
+    
+    .nav__list {
+		text-align: left;
+	}
+   
+    .page {
+	float: none;
+    width: 100%;
+  }
+    
+   .about_ava {
+		width: 170px;
+		height: 170px;
+	}	
+  .about__left {
+		width: 35%;
+	}
+
+  .about__right {
+		width: 65%;
+	}
+    
+  .portfolio,.career {
+	margin-left: 3%;
+}
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+	  width: 480px;
+   }
+    
+    .header__left {
+		width: 75%;
+	}
+
+	.header__right {
+		width: 25%;
+	}
+    .contacts {
+        margin-top: 22px;
+    }
+    .contacts__main {
+	   background: url('img/icons/phone.png') 0 0 no-repeat;
+        text-indent: 9999px;
+		display: inline-block;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+    }
+    
+    .contacts__main:hover ,
+    .contacts__main:active{
+	   background: url('img/icons/phone-hover.png') 0 0 no-repeat;
+        text-indent: 9999px;
+		display: inline-block;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+    }
+    
+    .contacts__dropdown {
+	left: -83px;
+}
+    
+    .about__left {
+		float: none;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.about__right {
+		float: none;
+		width: 100%;
+	}
+    
+    .content-title {
+		text-align: center;
+	}
+    
+    .about__btns {
+	   text-align: center;
+    }
+    
+    .footer {
+	  height: 95px;
+    }
+    
+   .copyright {
+     float: none;
+	 text-align: center;
+     right: 0;
+    }
+    
+    .soc__list {
+      padding-top: 44px;
+      float: none;
+      left: 0;
+      text-align: center;
+   }
+    
+    
+.career__left {
+    float: none;
+    height:auto;
+    margin-left: 120px;
+}
+
+.career__right {
+    float: none;
+    height:auto;
+    margin-left: -18px;
+}
+    
+ 
+
+    
+   .career__block:after,
+    .career__block:before,
+    .career__year:after,
+    .career__year{
+        display: none;
+    }
+    
+    .career__list {
+	padding-top: 30px;
+}
+    
+    .auth {
+	width: 36%;
+}
+
+   
+
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+	  width: 95%;
+      padding: 0;
+   }
+    
+    .user__name {
+		max-width: 150px;
+		font-size: 14px;
+         width: 56%;
+	}
+    
+    .contacts__main {
+	   background: url('img/icons/phone.png') 0 0 no-repeat;
+        text-indent: 9999px;
+		display: inline-block;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+    }
+    
+    .contacts__main:hover {
+	   background: url('img/icons/phone-hover.png') 0 0 no-repeat;
+        text-indent: 9999px;
+		display: inline-block;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+    }
+     .nav__list {
+        text-align: center;
+        white-space: nowrap;
+	}
+    
+     .nav__item {
+         margin: 0 auto;
+         padding: 0 3%;
+}  
+    
+    .nav__link-text {
+        font-size: 14px;
+   }  
+ 
+    .nav__link-icon {
+	  display: none;
+   }
+    .about_ava {
+	  width: 142px;
+      height: 142px;
+   }
+    
+    .about__text {
+		font-size: 16px;
+        overflow-y: hidden;
+	}
+    
+    .portfolio {
+	margin: 0 auto;
+}
+    
+    .portfolio__list {
+	float: none;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+    
+  
+    
+    .portfolio__item {
+    display: block;
+	text-align: justify;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+    
+
+ .soc__list {
+      float: none;
+      vertical-align: middle;
+   }
+
+    
+    .career {
+	margin: 0;
+    overflow: hidden;
+}
+    
+    .career__left {
+	float: none;
+    margin: 0;
+    width: 100%;
+}
+    
+    .career__pic {
+   max-width: 220px;
+   margin: auto;
+}
+    
+    .career__pic-img {
+    width: 100%;
+	background-size: contain;
+}
+    
+    
+    .career__right {
+	width: 100%;
+        float: none;
+        margin: 0;
+}
+    
+    .career__item {
+    float: none;
+	width: 100%;
+    margin: 0;
+    padding-top: 15px;
+}
+    
+    .career__list {
+    float: none;
+    margin: auto;
+    overflow: hidden;
+}
+
+.career__block {
+    width: 100%;
+	text-align: justify;
+}
+
+    .auth {
+       width: 90%;
+        &__name {
+            font-size: 24px;
+        }
+    }
+    
+    
+    
+}
+
+
+
