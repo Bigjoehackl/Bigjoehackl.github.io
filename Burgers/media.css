@@ -1,0 +1,11 @@
+@media screen and (max-width: 960px) {
+    .burg {
+	width: 850px;
+  }
+    
+    .burgers__container{
+        overflow: hidden;
+    }
+    
+    
+}
